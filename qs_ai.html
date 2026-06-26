@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AI 검색 안내 - QuickSource.com</title>
+    <style>
+        body {
+            font-family: '맑은 고딕', sans-serif;
+            background-color: #f2f4f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .notice-box {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            text-align: center;
+            width: 400px;
+        }
+        .ai-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            display: block;
+        }
+        .title {
+            color: #333333;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .desc {
+            color: #666666;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .btn-group {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .btn {
+            flex: 1;
+            height: 45px;
+            line-height: 45px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 8px;
+            display: inline-block;
+            transition: all 0.2s ease;
+        }
+        .btn-yes {
+            background-color: #3b66f5;
+            color: white;
+        }
+        .btn-yes:hover {
+            background-color: #2a52d4;
+        }
+        .btn-no {
+            background-color: #e5e7eb;
+            color: #4b5563;
+        }
+        .btn-no:hover {
+            background-color: #d1d5db;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="notice-box">
+        <span class="ai-icon">🤖</span>
+        <div class="title">AI 검색 기능 안내</div>
+        <div class="desc">
+            자체 AI 검색 기능은 아직 준비 중입니다!<br>
+            대신 똑똑한 <strong>Google Gemini</strong>로 이동하여<br>
+            원하는 리소스를 추천받으시겠습니까?
+        </div>
+        
+        <div class="btn-group">
+            <a href="qs_login.html" class="btn btn-no">아니오, 돌아갑니다</a>
+            <a href="https://gemini.google.com" target="_blank" class="btn btn-yes">네, 이동합니다!</a>
+        </div>
+    </div>
+
+</body>
+</html>

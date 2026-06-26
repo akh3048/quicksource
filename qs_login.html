@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>QuickSource.com</title>
+    <style>
+        body {
+            font-family: '맑은 고딕', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .logo {
+            color: #3b66f5;
+            font-size: 28px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-left: 40px;
+            margin-top: 30px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .subtitle {
+            color: #999999;
+            font-size: 12px;
+            margin-left: 40px;
+            margin-top: 5px;
+            display: block;
+        }
+        .nav-menu {
+            list-style-type: none;
+            float: right;
+            margin-right: 40px;
+            margin-top: -45px;
+        }
+
+        .nav-menu li {
+            display: inline;
+            margin-left: 30px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .nav-menu a {
+            text-decoration: none;
+            color: #666666;
+            cursor: pointer;
+        }
+        .disabled {
+            color: #222222;
+        }
+        .active {
+            color: #3b66f5 !important;
+        }
+        .main-content {
+            text-align: center;
+            margin-top: 150px;
+        }
+        .search-input {
+            width: 500px;
+            height: 50px;
+            font-size: 16px;
+            padding-left: 20px;
+            background-color: #f2f4f7;
+            border: none;
+            border-radius: 25px;
+            outline: none;
+        }
+        .search-btn {
+            width: 90px;
+            height: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #030712;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .tags-area {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .tag-chip {
+            display: inline-block;
+            background-color: #eaede4; 
+            color: #2c3224;
+            padding: 10px 18px;
+            margin: 0 5px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .tag-chip:hover {
+            background-color: #dfe2d9;
+        }
+    </style>
+</head>
+<body>
+
+    <a class="logo">QuickSource.com</a>
+    <span class="subtitle">AI-Powered Video Resource Hub</span>
+
+    <ul class="nav-menu">
+        <li><a href="aboutqs_login.html">QuickSource란?</a></li>
+        <li><a href="index.html">로그아웃</a></li>
+        <li><a href="qs_ai.html" target="_blank" class="active">AI 검색</a></li>
+        <li><a>무료</a></li>
+    </ul>
+
+    <div class="main-content">
+        <form onsubmit="event.preventDefault();">
+            <input type="text" class="search-input" placeholder="회원 전용 AI검색 기능을 이용해보세요!">
+            <button type="submit" class="search-btn">검색</button>
+        </form>
+    </div>
+
+    <div class="tags-area">
+        <a class="tag-chip">잔잔한 음악</a>
+        <a class="tag-chip">크로마키</a>
+        <a class="tag-chip">효과음</a>
+        <a class="tag-chip">밈</a>
+        <a class="tag-chip">배경 영상</a>
+    </div>
+
+</body>
+</html>
